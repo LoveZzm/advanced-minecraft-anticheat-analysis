@@ -1,0 +1,199 @@
+session_id,player_id,mode,risk_score,risk_tier,primary_category,rule_score,outlier_score,model_probability,explanation,autoclicker_score,reach_score,aim_assist_score,bot_behavior_score,macro_farming_score,multi_signal_score
+S0191,player_191,SkyBlock,100.0,critical,macro_farming,100.0,100.0,1.0,Maximum observed reach was 3.63 blocks | Aim snap rate was 85% | Perfect tracking ratio was 90% | Repeated path ratio was 92% | Action diversity was low at 1.1/min | Statistical outlier score was 100/100 | Demo model estimated 100% suspicious probability,33.75,69.0,77.04,61.98,95.34,90.0
+S0193,player_193,SkyBlock,100.0,critical,macro_farming,100.0,100.0,1.0,Maximum observed reach was 3.56 blocks | Aim snap rate was 79% | Perfect tracking ratio was 91% | Repeated path ratio was 94% | Action diversity was low at 1.5/min | Statistical outlier score was 100/100 | Demo model estimated 100% suspicious probability,40.35,58.43,72.0,61.9,81.43,90.0
+S0194,player_194,SkyWars,100.0,critical,reach,100.0,100.0,1.0,Click timing consistency was 90% | Maximum observed reach was 3.82 blocks | Aim snap rate was 83% | Perfect tracking ratio was 86% | Repeated path ratio was 96% | Statistical outlier score was 100/100 | Demo model estimated 100% suspicious probability,45.0,95.57,70.65,61.12,88.18,100.0
+S0195,player_195,Duels,100.0,critical,macro_farming,100.0,100.0,1.0,Click timing consistency was 87% | Maximum observed reach was 3.71 blocks | Aim snap rate was 84% | Perfect tracking ratio was 88% | Repeated path ratio was 92% | Statistical outlier score was 100/100 | Demo model estimated 100% suspicious probability,45.0,79.86,74.17,60.07,89.11,100.0
+S0197,player_197,Duels,100.0,critical,reach,100.0,100.0,1.0,Maximum observed reach was 3.76 blocks | Aim snap rate was 80% | Perfect tracking ratio was 86% | Repeated path ratio was 94% | Action diversity was low at 0.6/min | Statistical outlier score was 100/100 | Demo model estimated 100% suspicious probability,40.84,87.29,67.14,65.0,83.3,90.0
+S0198,player_198,SkyWars,100.0,critical,reach,100.0,100.0,1.0,Maximum observed reach was 3.77 blocks | Aim snap rate was 88% | Perfect tracking ratio was 90% | Repeated path ratio was 84% | Action diversity was low at 1.1/min | Statistical outlier score was 100/100 | Demo model estimated 100% suspicious probability,19.47,89.0,78.05,51.83,86.23,90.0
+S0192,player_192,SkyBlock,99.98,critical,reach,100.0,99.84,1.0,Click timing consistency was 87% | Maximum observed reach was 4.01 blocks | Aim snap rate was 71% | Perfect tracking ratio was 92% | Repeated path ratio was 87% | Statistical outlier score was 100/100 | Demo model estimated 100% suspicious probability,45.0,100.0,65.07,53.61,75.01,100.0
+S0196,player_196,Duels,99.58,critical,macro_farming,100.0,97.23,1.0,Maximum observed reach was 3.54 blocks | Aim snap rate was 71% | Perfect tracking ratio was 92% | Repeated path ratio was 92% | Action diversity was low at 0.9/min | Statistical outlier score was 97/100 | Demo model estimated 100% suspicious probability,35.8,56.43,64.86,62.88,89.45,90.0
+S0189,player_189,SkyWars,98.56,critical,macro_farming,100.0,91.11,0.9958,Repeated path ratio was 91% | Action diversity was low at 1.7/min | Resource collection reached 17.3/min | Farming route repetition was 91% | Session duration was 147 minutes | Statistical outlier score was 91/100 | Demo model estimated 100% suspicious probability,0.0,0.0,0.0,57.14,89.28,30.0
+S0190,player_190,Duels,98.39,critical,macro_farming,100.0,92.41,0.9812,Repeated path ratio was 95% | Action diversity was low at 1.4/min | Resource collection reached 16.2/min | Farming route repetition was 95% | Session duration was 167 minutes | Statistical outlier score was 92/100 | Demo model estimated 98% suspicious probability,0.0,0.0,0.0,62.03,91.18,30.0
+S0183,player_183,Bed Wars,98.22,critical,macro_farming,100.0,92.56,0.9735,Repeated path ratio was 95% | Action diversity was low at 1.0/min | Resource collection reached 16.0/min | Farming route repetition was 95% | Session duration was 177 minutes | Statistical outlier score was 93/100 | Demo model estimated 97% suspicious probability,0.0,0.0,0.0,64.69,92.48,30.0
+S0186,player_186,SkyWars,98.11,critical,macro_farming,99.91,91.41,0.9782,Repeated path ratio was 92% | Action diversity was low at 2.8/min | Resource collection reached 18.5/min | Farming route repetition was 92% | Session duration was 134 minutes | Statistical outlier score was 91/100 | Demo model estimated 98% suspicious probability,0.0,0.0,0.0,50.62,90.15,30.0
+S0185,player_185,Bed Wars,97.74,critical,macro_farming,100.0,90.14,0.9687,Repeated path ratio was 89% | Action diversity was low at 1.2/min | Resource collection reached 17.5/min | Farming route repetition was 89% | Session duration was 170 minutes | Statistical outlier score was 90/100 | Demo model estimated 97% suspicious probability,0.0,0.0,0.0,57.22,92.09,30.0
+S0184,player_184,Bed Wars,97.72,critical,macro_farming,100.0,91.93,0.9574,Repeated path ratio was 94% | Action diversity was low at 0.7/min | Resource collection reached 15.4/min | Farming route repetition was 94% | Session duration was 190 minutes | Statistical outlier score was 92/100 | Demo model estimated 96% suspicious probability,0.0,0.0,0.0,64.5,90.44,30.0
+S0173,player_173,SkyWars,94.28,critical,aim_assist,92.09,95.98,0.9853,Aim snap rate was 84% | Perfect tracking ratio was 90% | Target switching reached 7.4/min | Statistical outlier score was 96/100 | Demo model estimated 99% suspicious probability,0.0,0.0,92.09,0.0,0.0,0.0
+S0188,player_188,Bed Wars,94.1,critical,macro_farming,98.02,90.73,0.867,Repeated path ratio was 90% | Action diversity was low at 0.9/min | Resource collection reached 15.6/min | Farming route repetition was 90% | Session duration was 164 minutes | Statistical outlier score was 91/100 | Demo model estimated 87% suspicious probability,0.0,0.0,0.0,60.5,85.69,30.0
+S0170,player_170,Duels,93.73,critical,aim_assist,91.9,94.09,0.9793,Aim snap rate was 85% | Perfect tracking ratio was 86% | Target switching reached 8.2/min | Statistical outlier score was 94/100 | Demo model estimated 98% suspicious probability,0.0,0.0,91.9,0.0,0.0,0.0
+S0174,player_174,SkyWars,93.61,critical,aim_assist,91.47,95.79,0.9746,Aim snap rate was 86% | Perfect tracking ratio was 89% | Target switching reached 6.9/min | Statistical outlier score was 96/100 | Demo model estimated 97% suspicious probability,0.0,0.0,91.47,0.0,0.0,0.0
+S0153,player_153,SkyBlock,92.81,critical,autoclicker,96.39,73.9,0.9555,Sustained click rate reached 18.5 CPS | Click timing consistency was 91% | Statistical outlier score was 74/100 | Demo model estimated 96% suspicious probability,96.39,0.0,0.0,0.0,0.0,0.0
+S0180,player_180,Duels,91.34,critical,bot_behavior,98.27,54.42,0.9687,Path efficiency was unusually high at 97% | Repeated path ratio was 97% | Action diversity was low at 1.3/min | Demo model estimated 97% suspicious probability,0.0,0.0,0.0,95.94,30.0,0.0
+S0171,player_171,SkyWars,89.27,critical,aim_assist,86.29,94.74,0.9315,Aim snap rate was 78% | Perfect tracking ratio was 87% | Target switching reached 8.6/min | Statistical outlier score was 95/100 | Demo model estimated 93% suspicious probability,0.0,0.0,86.29,0.0,0.0,0.0
+S0163,player_163,Duels,88.22,critical,reach,100.0,47.0,0.8467,Maximum observed reach was 4.03 blocks | Demo model estimated 85% suspicious probability,0.0,100.0,0.0,0.0,0.0,0.0
+S0177,player_177,SkyWars,87.68,critical,bot_behavior,96.56,53.26,0.8702,Path efficiency was unusually high at 97% | Repeated path ratio was 96% | Action diversity was low at 1.6/min | Demo model estimated 87% suspicious probability,0.0,3.14,0.0,93.81,30.0,0.0
+S0162,player_162,Duels,87.49,critical,reach,95.57,51.08,0.8996,Maximum observed reach was 3.82 blocks | Demo model estimated 90% suspicious probability,0.0,95.57,0.0,0.0,0.0,0.0
+S0156,player_156,Duels,87.4,critical,autoclicker,91.87,71.35,0.8629,Sustained click rate reached 19.6 CPS | Click timing consistency was 83% | Statistical outlier score was 71/100 | Demo model estimated 86% suspicious probability,91.87,0.0,0.0,0.0,0.0,0.0
+S0152,player_152,Duels,86.8,critical,autoclicker,89.89,72.35,0.8805,Sustained click rate reached 18.1 CPS | Click timing consistency was 85% | Statistical outlier score was 72/100 | Demo model estimated 88% suspicious probability,89.89,0.0,0.0,0.0,0.0,0.0
+S0187,player_187,SkyBlock,86.64,critical,macro_farming,83.24,89.69,0.9295,Repeated path ratio was 88% | Action diversity was low at 1.0/min | Resource collection reached 13.3/min | Farming route repetition was 88% | Session duration was 140 minutes | Statistical outlier score was 90/100 | Demo model estimated 93% suspicious probability,0.0,0.0,0.0,56.73,71.07,30.0
+S0181,player_181,Duels,86.6,critical,bot_behavior,96.99,54.13,0.8115,Path efficiency was unusually high at 98% | Repeated path ratio was 98% | Action diversity was low at 1.6/min | Demo model estimated 81% suspicious probability,0.0,0.0,0.0,94.59,30.0,0.0
+S0178,player_178,Duels,86.49,critical,bot_behavior,95.56,53.04,0.8478,Path efficiency was unusually high at 97% | Repeated path ratio was 96% | Action diversity was low at 1.6/min | Demo model estimated 85% suspicious probability,0.0,0.0,0.0,93.09,30.0,0.0
+S0157,player_157,SkyWars,83.59,high,autoclicker,84.18,69.74,0.905,Sustained click rate reached 18.1 CPS | Click timing consistency was 83% | Statistical outlier score was 70/100 | Demo model estimated 90% suspicious probability,84.18,0.0,0.0,0.0,0.0,0.0
+S0172,player_172,Duels,83.46,high,aim_assist,75.12,91.98,0.9836,Aim snap rate was 77% | Perfect tracking ratio was 81% | Target switching reached 7.1/min | Statistical outlier score was 92/100 | Demo model estimated 98% suspicious probability,0.0,2.86,74.4,0.0,0.0,0.0
+S0182,player_182,Bed Wars,83.17,high,bot_behavior,87.04,50.86,0.9326,Path efficiency was unusually high at 96% | Repeated path ratio was 90% | Action diversity was low at 1.3/min | Demo model estimated 93% suspicious probability,0.0,0.0,0.0,84.93,26.75,0.0
+S0168,player_168,SkyBlock,82.07,high,aim_assist,73.26,90.19,0.9836,Aim snap rate was 75% | Perfect tracking ratio was 77% | Target switching reached 8.6/min | Statistical outlier score was 90/100 | Demo model estimated 98% suspicious probability,0.0,0.0,73.26,0.0,0.0,0.0
+S0175,player_175,SkyWars,81.75,high,bot_behavior,84.08,49.57,0.9546,Path efficiency was unusually high at 97% | Repeated path ratio was 86% | Action diversity was low at 1.5/min | Demo model estimated 95% suspicious probability,0.0,0.0,0.0,82.63,23.5,0.0
+S0176,player_176,Duels,81.41,high,bot_behavior,93.67,52.07,0.696,Path efficiency was unusually high at 98% | Repeated path ratio was 96% | Action diversity was low at 2.2/min | Demo model estimated 70% suspicious probability,0.0,0.0,0.0,91.1,30.0,0.0
+S0151,player_151,Bed Wars,80.32,high,autoclicker,79.11,70.28,0.8924,Sustained click rate reached 18.0 CPS | Click timing consistency was 81% | Statistical outlier score was 70/100 | Demo model estimated 89% suspicious probability,79.11,0.0,0.0,0.0,0.0,0.0
+S0154,player_154,SkyWars,79.69,high,autoclicker,95.61,68.33,0.483,Sustained click rate reached 19.4 CPS | Click timing consistency was 84% | Statistical outlier score was 68/100,95.61,0.0,0.0,0.0,0.0,0.0
+S0155,player_155,SkyBlock,78.24,high,autoclicker,77.46,67.84,0.8634,Sustained click rate reached 17.5 CPS | Click timing consistency was 82% | Statistical outlier score was 68/100 | Demo model estimated 86% suspicious probability,77.46,0.0,0.0,0.0,0.0,0.0
+S0161,player_161,SkyWars,77.58,high,reach,83.86,36.66,0.8708,Maximum observed reach was 3.74 blocks | Demo model estimated 87% suspicious probability,0.0,83.86,0.0,0.0,0.0,0.0
+S0169,player_169,Bed Wars,77.43,high,aim_assist,74.87,89.8,0.7615,Aim snap rate was 69% | Perfect tracking ratio was 85% | Target switching reached 7.9/min | Statistical outlier score was 90/100 | Demo model estimated 76% suspicious probability,0.0,0.0,74.87,0.0,0.0,0.0
+S0167,player_167,SkyBlock,77.38,high,aim_assist,84.5,96.76,0.4866,Aim snap rate was 78% | Perfect tracking ratio was 91% | Target switching reached 6.7/min | Statistical outlier score was 97/100,0.0,0.0,84.5,0.0,0.0,0.0
+S0159,player_159,SkyWars,76.09,high,reach,78.43,50.17,0.8603,Maximum observed reach was 3.70 blocks | Demo model estimated 86% suspicious probability,0.0,78.43,0.0,0.0,0.0,0.0
+S0179,player_179,SkyBlock,73.76,high,bot_behavior,83.23,49.15,0.6579,Path efficiency was unusually high at 97% | Repeated path ratio was 84% | Action diversity was low at 1.4/min | Demo model estimated 66% suspicious probability,0.0,0.0,0.0,82.17,21.75,0.0
+S0158,player_158,SkyBlock,72.64,high,autoclicker,75.77,66.46,0.6885,Sustained click rate reached 17.0 CPS | Click timing consistency was 83% | Statistical outlier score was 66/100 | Demo model estimated 69% suspicious probability,75.77,0.0,0.0,0.0,0.0,0.0
+S0166,player_166,Duels,70.39,high,reach,82.0,40.41,0.6052,Maximum observed reach was 3.72 blocks,0.0,82.0,0.0,0.0,0.0,0.0
+S0160,player_160,SkyWars,66.6,review,reach,66.14,44.78,0.808,Maximum observed reach was 3.61 blocks | Demo model estimated 81% suspicious probability,0.0,66.14,0.0,0.0,0.0,0.0
+S0164,player_164,SkyBlock,46.34,low,reach,45.0,34.91,0.5643,Maximum observed reach was 3.46 blocks,0.0,45.0,0.0,0.0,0.0,0.0
+S0165,player_165,Duels,33.05,low,reach,40.57,36.43,0.1297,Maximum observed reach was 3.43 blocks,0.0,40.57,0.0,0.0,0.0,0.0
+S0102,player_102,SkyWars,18.15,low,none,0.0,29.69,0.548,,0.0,0.0,0.0,0.0,0.0,0.0
+S0101,player_101,SkyBlock,16.6,low,none,0.0,27.67,0.4979,,0.0,0.0,0.0,0.0,0.0,0.0
+S0025,player_025,Duels,12.68,low,none,0.0,24.73,0.3587,,0.0,0.0,0.0,0.0,0.0,0.0
+S0069,player_069,SkyBlock,12.63,low,none,0.0,33.77,0.3026,,0.0,0.0,0.0,0.0,0.0,0.0
+S0109,player_109,Bed Wars,10.64,low,bot_behavior,3.22,30.28,0.1668,Action diversity was low at 3.5/min,0.0,0.0,0.0,3.39,0.0,0.0
+S0141,player_141,SkyBlock,10.58,low,none,0.0,29.5,0.2461,,0.0,0.0,0.0,0.0,0.0,0.0
+S0018,player_018,SkyBlock,10.57,low,none,0.0,18.49,0.3117,,0.0,0.0,0.0,0.0,0.0,0.0
+S0004,player_004,SkyBlock,9.95,low,none,0.0,22.01,0.2658,,0.0,0.0,0.0,0.0,0.0,0.0
+S0120,player_120,SkyBlock,9.84,low,reach,4.29,22.82,0.1538,Maximum observed reach was 3.18 blocks,0.0,4.29,0.0,0.0,0.0,0.0
+S0148,player_148,Bed Wars,8.7,low,none,0.0,22.24,0.2144,,0.0,0.0,0.0,0.0,0.0,0.0
+S0093,player_093,SkyBlock,8.58,low,reach,4.29,29.04,0.0661,Maximum observed reach was 3.18 blocks,0.0,4.29,0.0,0.0,0.0,0.0
+S0023,player_023,SkyWars,8.53,low,none,0.0,20.51,0.2183,,0.0,0.0,0.0,0.0,0.0,0.0
+S0077,player_077,SkyWars,8.3,low,reach,4.29,24.45,0.0825,Maximum observed reach was 3.18 blocks,0.0,4.29,0.0,0.0,0.0,0.0
+S0134,player_134,Bed Wars,8.1,low,none,0.0,25.65,0.1701,,0.0,0.0,0.0,0.0,0.0,0.0
+S0136,player_136,SkyBlock,7.88,low,none,0.0,24.97,0.1654,,0.0,0.0,0.0,0.0,0.0,0.0
+S0118,player_118,SkyBlock,7.18,low,bot_behavior,3.34,22.04,0.0748,Action diversity was low at 3.5/min,0.0,0.0,0.0,3.52,0.0,0.0
+S0117,player_117,Bed Wars,7.06,low,none,0.0,23.86,0.1394,,0.0,0.0,0.0,0.0,0.0,0.0
+S0066,player_066,Bed Wars,6.95,low,none,0.0,31.98,0.0861,,0.0,0.0,0.0,0.0,0.0,0.0
+S0139,player_139,SkyBlock,6.9,low,none,0.0,22.81,0.139,,0.0,0.0,0.0,0.0,0.0,0.0
+S0065,player_065,Duels,6.84,low,none,0.0,28.3,0.1039,,0.0,0.0,0.0,0.0,0.0,0.0
+S0142,player_142,SkyWars,6.73,low,none,0.0,33.57,0.0678,,0.0,0.0,0.0,0.0,0.0,0.0
+S0045,player_045,SkyBlock,6.7,low,reach,0.29,23.97,0.1173,Maximum observed reach was 3.15 blocks,0.0,0.29,0.0,0.0,0.0,0.0
+S0057,player_057,Bed Wars,6.53,low,none,0.0,25.74,0.1067,,0.0,0.0,0.0,0.0,0.0,0.0
+S0129,player_129,Bed Wars,6.52,low,bot_behavior,0.45,22.83,0.1129,Action diversity was low at 3.9/min,0.0,0.0,0.0,0.47,0.0,0.0
+S0063,player_063,SkyBlock,6.35,low,none,0.0,32.62,0.0581,,0.0,0.0,0.0,0.0,0.0,0.0
+S0149,player_149,SkyWars,6.31,low,none,0.0,24.04,0.1082,,0.0,0.0,0.0,0.0,0.0,0.0
+S0041,player_041,SkyWars,6.08,low,none,0.0,30.39,0.061,,0.0,0.0,0.0,0.0,0.0,0.0
+S0059,player_059,Duels,6.03,low,none,0.0,21.67,0.1111,,0.0,0.0,0.0,0.0,0.0,0.0
+S0075,player_075,SkyBlock,6.02,low,none,0.0,28.06,0.0725,,0.0,0.0,0.0,0.0,0.0,0.0
+S0027,player_027,Bed Wars,5.89,low,none,0.0,17.66,0.1295,,0.0,0.0,0.0,0.0,0.0,0.0
+S0030,player_030,Bed Wars,5.84,low,none,0.0,30.84,0.0486,,0.0,0.0,0.0,0.0,0.0,0.0
+S0143,player_143,SkyBlock,5.81,low,none,0.0,24.36,0.0862,,0.0,0.0,0.0,0.0,0.0,0.0
+S0072,player_072,SkyWars,5.78,low,none,0.0,19.59,0.1136,,0.0,0.0,0.0,0.0,0.0,0.0
+S0105,player_105,SkyWars,5.78,low,none,0.0,19.81,0.1125,,0.0,0.0,0.0,0.0,0.0,0.0
+S0122,player_122,SkyBlock,5.58,low,none,0.0,28.22,0.054,,0.0,0.0,0.0,0.0,0.0,0.0
+S0003,player_003,Duels,5.47,low,none,0.0,27.57,0.0533,,0.0,0.0,0.0,0.0,0.0,0.0
+S0098,player_098,Bed Wars,5.39,low,none,0.0,18.56,0.1044,,0.0,0.0,0.0,0.0,0.0,0.0
+S0013,player_013,Bed Wars,5.36,low,none,0.0,25.08,0.064,,0.0,0.0,0.0,0.0,0.0,0.0
+S0084,player_084,Bed Wars,5.25,low,none,0.0,34.38,0.0037,,0.0,0.0,0.0,0.0,0.0,0.0
+S0130,player_130,SkyBlock,5.25,low,none,0.0,23.5,0.0691,,0.0,0.0,0.0,0.0,0.0,0.0
+S0044,player_044,Duels,5.24,low,none,0.0,22.14,0.0769,,0.0,0.0,0.0,0.0,0.0,0.0
+S0037,player_037,SkyWars,5.2,low,none,0.0,32.48,0.0129,,0.0,0.0,0.0,0.0,0.0,0.0
+S0126,player_126,Bed Wars,5.2,low,none,0.0,19.61,0.0905,,0.0,0.0,0.0,0.0,0.0,0.0
+S0007,player_007,SkyBlock,5.04,low,none,0.0,31.13,0.0148,,0.0,0.0,0.0,0.0,0.0,0.0
+S0115,player_115,SkyWars,5.04,low,none,0.0,23.15,0.0625,,0.0,0.0,0.0,0.0,0.0,0.0
+S0086,player_086,Duels,5.03,low,none,0.0,21.77,0.0704,,0.0,0.0,0.0,0.0,0.0,0.0
+S0005,player_005,SkyBlock,4.98,low,none,0.0,31.63,0.0096,,0.0,0.0,0.0,0.0,0.0,0.0
+S0104,player_104,SkyBlock,4.96,low,none,0.0,21.24,0.0708,,0.0,0.0,0.0,0.0,0.0,0.0
+S0090,player_090,Bed Wars,4.92,low,none,0.0,25.91,0.0415,,0.0,0.0,0.0,0.0,0.0,0.0
+S0055,player_055,Bed Wars,4.9,low,none,0.0,21.95,0.0644,,0.0,0.0,0.0,0.0,0.0,0.0
+S0091,player_091,Duels,4.88,low,none,0.0,23.26,0.0557,,0.0,0.0,0.0,0.0,0.0,0.0
+S0096,player_096,SkyBlock,4.88,low,bot_behavior,0.74,22.65,0.0415,Action diversity was low at 3.9/min,0.0,0.0,0.0,0.78,0.0,0.0
+S0114,player_114,SkyWars,4.83,low,none,0.0,23.64,0.0516,,0.0,0.0,0.0,0.0,0.0,0.0
+S0127,player_127,SkyBlock,4.75,low,none,0.0,30.13,0.0091,,0.0,0.0,0.0,0.0,0.0,0.0
+S0033,player_033,Duels,4.7,low,none,0.0,26.21,0.0307,,0.0,0.0,0.0,0.0,0.0,0.0
+S0020,player_020,Bed Wars,4.69,low,none,0.0,23.57,0.0463,,0.0,0.0,0.0,0.0,0.0,0.0
+S0048,player_048,SkyWars,4.65,low,none,0.0,29.98,0.006,,0.0,0.0,0.0,0.0,0.0,0.0
+S0108,player_108,SkyBlock,4.64,low,none,0.0,20.12,0.0651,,0.0,0.0,0.0,0.0,0.0,0.0
+S0029,player_029,Bed Wars,4.61,low,none,0.0,17.85,0.0773,,0.0,0.0,0.0,0.0,0.0,0.0
+S0107,player_107,Duels,4.61,low,none,0.0,23.28,0.0447,,0.0,0.0,0.0,0.0,0.0,0.0
+S0116,player_116,Duels,4.6,low,none,0.0,21.39,0.0558,,0.0,0.0,0.0,0.0,0.0,0.0
+S0019,player_019,Duels,4.59,low,none,0.0,27.27,0.0199,,0.0,0.0,0.0,0.0,0.0,0.0
+S0087,player_087,SkyBlock,4.57,low,none,0.0,20.24,0.0615,,0.0,0.0,0.0,0.0,0.0,0.0
+S0067,player_067,SkyWars,4.56,low,none,0.0,14.63,0.0947,,0.0,0.0,0.0,0.0,0.0,0.0
+S0113,player_113,Bed Wars,4.53,low,none,0.0,27.08,0.0188,,0.0,0.0,0.0,0.0,0.0,0.0
+S0076,player_076,SkyWars,4.52,low,none,0.0,23.64,0.0389,,0.0,0.0,0.0,0.0,0.0,0.0
+S0145,player_145,SkyWars,4.47,low,none,0.0,29.78,0.0003,,0.0,0.0,0.0,0.0,0.0,0.0
+S0135,player_135,SkyBlock,4.41,low,none,0.0,25.43,0.0237,,0.0,0.0,0.0,0.0,0.0,0.0
+S0147,player_147,Duels,4.39,low,none,0.0,24.49,0.0287,,0.0,0.0,0.0,0.0,0.0,0.0
+S0006,player_006,SkyBlock,4.36,low,none,0.0,24.52,0.0273,,0.0,0.0,0.0,0.0,0.0,0.0
+S0012,player_012,SkyBlock,4.36,low,none,0.0,21.89,0.043,,0.0,0.0,0.0,0.0,0.0,0.0
+S0128,player_128,SkyBlock,4.35,low,none,0.0,17.81,0.067,,0.0,0.0,0.0,0.0,0.0,0.0
+S0054,player_054,Duels,4.34,low,none,0.0,23.36,0.0334,,0.0,0.0,0.0,0.0,0.0,0.0
+S0062,player_062,SkyBlock,4.32,low,none,0.0,27.42,0.0081,,0.0,0.0,0.0,0.0,0.0,0.0
+S0100,player_100,Bed Wars,4.31,low,none,0.0,27.22,0.0089,,0.0,0.0,0.0,0.0,0.0,0.0
+S0095,player_095,SkyWars,4.28,low,none,0.0,27.62,0.0055,,0.0,0.0,0.0,0.0,0.0,0.0
+S0047,player_047,SkyBlock,4.27,low,none,0.0,27.84,0.0037,,0.0,0.0,0.0,0.0,0.0,0.0
+S0071,player_071,Duels,4.26,low,none,0.0,21.95,0.0387,,0.0,0.0,0.0,0.0,0.0,0.0
+S0121,player_121,Duels,4.26,low,none,0.0,25.27,0.019,,0.0,0.0,0.0,0.0,0.0,0.0
+S0131,player_131,SkyBlock,4.25,low,none,0.0,15.35,0.0778,,0.0,0.0,0.0,0.0,0.0,0.0
+S0110,player_110,Bed Wars,4.24,low,none,0.0,18.75,0.057,,0.0,0.0,0.0,0.0,0.0,0.0
+S0144,player_144,SkyBlock,4.24,low,none,0.0,26.75,0.0091,,0.0,0.0,0.0,0.0,0.0,0.0
+S0015,player_015,Duels,4.23,low,none,0.0,27.38,0.0047,,0.0,0.0,0.0,0.0,0.0,0.0
+S0083,player_083,Bed Wars,4.22,low,none,0.0,26.84,0.0077,,0.0,0.0,0.0,0.0,0.0,0.0
+S0014,player_014,SkyBlock,4.21,low,none,0.0,24.6,0.0208,,0.0,0.0,0.0,0.0,0.0,0.0
+S0140,player_140,SkyBlock,4.21,low,none,0.0,23.56,0.027,,0.0,0.0,0.0,0.0,0.0,0.0
+S0024,player_024,SkyWars,4.2,low,none,0.0,26.07,0.0115,,0.0,0.0,0.0,0.0,0.0,0.0
+S0010,player_010,SkyWars,4.19,low,none,0.0,19.15,0.0526,,0.0,0.0,0.0,0.0,0.0,0.0
+S0119,player_119,SkyBlock,4.18,low,none,0.0,23.83,0.0243,,0.0,0.0,0.0,0.0,0.0,0.0
+S0073,player_073,Bed Wars,4.07,low,none,0.0,18.4,0.0522,,0.0,0.0,0.0,0.0,0.0,0.0
+S0053,player_053,Duels,4.06,low,none,0.0,25.71,0.0082,,0.0,0.0,0.0,0.0,0.0,0.0
+S0042,player_042,SkyWars,4.02,low,none,0.0,21.08,0.0345,,0.0,0.0,0.0,0.0,0.0,0.0
+S0133,player_133,SkyWars,4.02,low,none,0.0,19.2,0.0456,,0.0,0.0,0.0,0.0,0.0,0.0
+S0001,player_001,Bed Wars,4.01,low,none,0.0,26.34,0.0025,,0.0,0.0,0.0,0.0,0.0,0.0
+S0079,player_079,SkyBlock,4.0,low,none,0.0,24.9,0.0106,,0.0,0.0,0.0,0.0,0.0,0.0
+S0085,player_085,SkyBlock,4.0,low,none,0.0,26.45,0.0012,,0.0,0.0,0.0,0.0,0.0,0.0
+S0022,player_022,Bed Wars,3.99,low,none,0.0,23.09,0.021,,0.0,0.0,0.0,0.0,0.0,0.0
+S0099,player_099,Bed Wars,3.87,low,none,0.0,24.45,0.0081,,0.0,0.0,0.0,0.0,0.0,0.0
+S0002,player_002,SkyBlock,3.86,low,none,0.0,20.39,0.032,,0.0,0.0,0.0,0.0,0.0,0.0
+S0089,player_089,SkyBlock,3.85,low,none,0.0,25.53,0.0008,,0.0,0.0,0.0,0.0,0.0,0.0
+S0043,player_043,SkyWars,3.84,low,none,0.0,24.93,0.0041,,0.0,0.0,0.0,0.0,0.0,0.0
+S0078,player_078,Duels,3.83,low,none,0.0,19.09,0.0385,,0.0,0.0,0.0,0.0,0.0,0.0
+S0031,player_031,SkyBlock,3.82,low,none,0.0,24.72,0.0047,,0.0,0.0,0.0,0.0,0.0,0.0
+S0060,player_060,SkyWars,3.81,low,none,0.0,21.05,0.0259,,0.0,0.0,0.0,0.0,0.0,0.0
+S0040,player_040,Bed Wars,3.77,low,none,0.0,21.79,0.0199,,0.0,0.0,0.0,0.0,0.0,0.0
+S0146,player_146,Duels,3.77,low,none,0.0,22.55,0.0155,,0.0,0.0,0.0,0.0,0.0,0.0
+S0050,player_050,Bed Wars,3.75,low,none,0.0,19.22,0.0345,,0.0,0.0,0.0,0.0,0.0,0.0
+S0008,player_008,SkyWars,3.72,low,none,0.0,22.63,0.0131,,0.0,0.0,0.0,0.0,0.0,0.0
+S0064,player_064,SkyBlock,3.71,low,none,0.0,17.69,0.0422,,0.0,0.0,0.0,0.0,0.0,0.0
+S0035,player_035,SkyBlock,3.69,low,none,0.0,23.63,0.0059,,0.0,0.0,0.0,0.0,0.0,0.0
+S0106,player_106,SkyBlock,3.69,low,none,0.0,23.25,0.0079,,0.0,0.0,0.0,0.0,0.0,0.0
+S0088,player_088,SkyBlock,3.66,low,none,0.0,20.13,0.0257,,0.0,0.0,0.0,0.0,0.0,0.0
+S0046,player_046,SkyBlock,3.65,low,none,0.0,22.24,0.0127,,0.0,0.0,0.0,0.0,0.0,0.0
+S0150,player_150,SkyWars,3.64,low,none,0.0,20.27,0.0239,,0.0,0.0,0.0,0.0,0.0,0.0
+S0051,player_051,SkyBlock,3.58,low,none,0.0,23.14,0.0044,,0.0,0.0,0.0,0.0,0.0,0.0
+S0056,player_056,Bed Wars,3.52,low,none,0.0,19.93,0.0211,,0.0,0.0,0.0,0.0,0.0,0.0
+S0081,player_081,Bed Wars,3.52,low,none,0.0,20.19,0.0196,,0.0,0.0,0.0,0.0,0.0,0.0
+S0016,player_016,SkyWars,3.48,low,none,0.0,19.64,0.0212,,0.0,0.0,0.0,0.0,0.0,0.0
+S0028,player_028,Bed Wars,3.48,low,none,0.0,21.37,0.011,,0.0,0.0,0.0,0.0,0.0,0.0
+S0017,player_017,Duels,3.47,low,none,0.0,19.05,0.0245,,0.0,0.0,0.0,0.0,0.0,0.0
+S0070,player_070,SkyBlock,3.46,low,none,0.0,15.47,0.0454,,0.0,0.0,0.0,0.0,0.0,0.0
+S0049,player_049,Bed Wars,3.44,low,none,0.0,16.53,0.0386,,0.0,0.0,0.0,0.0,0.0,0.0
+S0074,player_074,Bed Wars,3.43,low,none,0.0,20.47,0.0146,,0.0,0.0,0.0,0.0,0.0,0.0
+S0124,player_124,SkyBlock,3.37,low,none,0.0,19.86,0.0155,,0.0,0.0,0.0,0.0,0.0,0.0
+S0039,player_039,SkyBlock,3.3,low,none,0.0,21.46,0.0032,,0.0,0.0,0.0,0.0,0.0,0.0
+S0036,player_036,Duels,3.29,low,none,0.0,15.66,0.0377,,0.0,0.0,0.0,0.0,0.0,0.0
+S0125,player_125,Bed Wars,3.29,low,none,0.0,19.04,0.0174,,0.0,0.0,0.0,0.0,0.0,0.0
+S0068,player_068,Bed Wars,3.28,low,none,0.0,16.9,0.03,,0.0,0.0,0.0,0.0,0.0,0.0
+S0094,player_094,Bed Wars,3.27,low,none,0.0,20.49,0.008,,0.0,0.0,0.0,0.0,0.0,0.0
+S0138,player_138,SkyBlock,3.27,low,none,0.0,20.15,0.0099,,0.0,0.0,0.0,0.0,0.0,0.0
+S0032,player_032,Duels,3.25,low,none,0.0,18.12,0.0214,,0.0,0.0,0.0,0.0,0.0,0.0
+S0052,player_052,SkyWars,3.24,low,none,0.0,15.72,0.0354,,0.0,0.0,0.0,0.0,0.0,0.0
+S0021,player_021,Bed Wars,3.23,low,none,0.0,15.63,0.0355,,0.0,0.0,0.0,0.0,0.0,0.0
+S0132,player_132,Duels,3.11,low,none,0.0,12.07,0.052,,0.0,0.0,0.0,0.0,0.0,0.0
+S0026,player_026,SkyWars,3.1,low,none,0.0,19.56,0.0067,,0.0,0.0,0.0,0.0,0.0,0.0
+S0137,player_137,Duels,3.08,low,none,0.0,18.84,0.01,,0.0,0.0,0.0,0.0,0.0,0.0
+S0112,player_112,SkyBlock,3.05,low,none,0.0,19.58,0.0045,,0.0,0.0,0.0,0.0,0.0,0.0
+S0123,player_123,Bed Wars,3.05,low,none,0.0,18.93,0.0085,,0.0,0.0,0.0,0.0,0.0,0.0
+S0097,player_097,Duels,2.95,low,none,0.0,16.62,0.0182,,0.0,0.0,0.0,0.0,0.0,0.0
+S0009,player_009,Bed Wars,2.9,low,none,0.0,12.99,0.0381,,0.0,0.0,0.0,0.0,0.0,0.0
+S0103,player_103,Duels,2.87,low,none,0.0,14.54,0.0275,,0.0,0.0,0.0,0.0,0.0,0.0
+S0034,player_034,SkyBlock,2.86,low,none,0.0,17.65,0.0085,,0.0,0.0,0.0,0.0,0.0,0.0
+S0058,player_058,SkyWars,2.86,low,none,0.0,17.44,0.0097,,0.0,0.0,0.0,0.0,0.0,0.0
+S0092,player_092,Duels,2.86,low,none,0.0,13.2,0.0354,,0.0,0.0,0.0,0.0,0.0,0.0
+S0038,player_038,Duels,2.85,low,none,0.0,15.38,0.0218,,0.0,0.0,0.0,0.0,0.0,0.0
+S0082,player_082,SkyWars,2.75,low,none,0.0,14.47,0.0231,,0.0,0.0,0.0,0.0,0.0,0.0
+S0080,player_080,Duels,2.72,low,none,0.0,15.51,0.0159,,0.0,0.0,0.0,0.0,0.0,0.0
+S0111,player_111,Bed Wars,2.67,low,none,0.0,15.6,0.0132,,0.0,0.0,0.0,0.0,0.0,0.0
+S0061,player_061,Duels,2.59,low,none,0.0,14.72,0.0151,,0.0,0.0,0.0,0.0,0.0,0.0
+S0011,player_011,SkyBlock,2.43,low,none,0.0,12.82,0.0203,,0.0,0.0,0.0,0.0,0.0,0.0

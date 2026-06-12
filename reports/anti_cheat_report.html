@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Session Integrity Review</title>
+<style>
+:root{--ink:#172033;--muted:#68728a;--line:#e7eaf0;--paper:#fff;--bg:#f4f6fa;--navy:#111a2f;--blue:#4f6df5;--cyan:#18a7a7;--amber:#e19a25;--red:#d9545d}
+*{box-sizing:border-box} body{margin:0;background:var(--bg);color:var(--ink);font:14px/1.55 Inter,Segoe UI,Arial,sans-serif}
+.shell{max-width:1240px;margin:auto;padding:34px 24px 64px} .hero{background:var(--navy);color:white;border-radius:20px;padding:34px;position:relative;overflow:hidden}
+.hero:after{content:"";position:absolute;width:420px;height:420px;border-radius:50%;right:-180px;top:-230px;background:linear-gradient(135deg,#4f6df5,#1bc3b0);opacity:.35}
+.eyebrow{text-transform:uppercase;letter-spacing:.14em;font-size:11px;font-weight:700;color:#9aa9d2} h1{font-size:34px;line-height:1.15;margin:10px 0 8px} .hero p{color:#bdc7df;max-width:680px;margin:0}
+.notice{margin-top:20px;padding:11px 14px;border:1px solid #34405d;border-radius:9px;color:#cbd3e6;background:#17233d;max-width:760px}
+.metrics{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin:18px 0} .metric,.panel,.player-card{background:var(--paper);border:1px solid var(--line);box-shadow:0 8px 24px rgba(26,39,70,.05)}
+.metric{border-radius:14px;padding:18px} .metric span{color:var(--muted);font-size:12px} .metric strong{display:block;font-size:27px;margin-top:3px} .grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.panel{border-radius:16px;padding:22px} h2{font-size:18px;margin:0 0 18px} .bar-row{display:grid;grid-template-columns:112px 1fr 30px;gap:11px;align-items:center;margin:13px 0;color:var(--muted);font-size:12px}
+.bar-track{height:8px;background:#eef0f5;border-radius:99px;overflow:hidden} .bar-fill{height:100%;background:linear-gradient(90deg,var(--blue),var(--cyan));border-radius:99px} .bar-row strong{color:var(--ink);text-align:right}
+.section-heading{display:flex;justify-content:space-between;align-items:end;margin:34px 0 14px} .section-heading h2{margin:0;font-size:22px} .section-heading p{margin:0;color:var(--muted)}
+.cards{display:grid;grid-template-columns:repeat(2,1fr);gap:16px} .player-card{padding:20px;border-radius:16px} .player-heading{display:flex;justify-content:space-between;gap:20px} h3{font-size:20px;margin:3px 0 0} .player-heading p{margin:0;color:var(--muted);font-size:12px}
+.risk-badge{width:62px;height:62px;border-radius:13px;display:grid;place-content:center;text-align:center;background:#eef1f7} .risk-badge strong{font-size:21px;line-height:1} .risk-badge span{text-transform:uppercase;font-size:8px;letter-spacing:.1em;margin-top:5px}
+.risk-badge.review{background:#fff4da;color:#9a6300} .risk-badge.high,.risk-badge.critical{background:#fee9ea;color:#a62d37} .category-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:7px;margin:17px 0}
+.category-score{background:#f6f7fa;padding:8px;border-radius:8px} .category-score span{display:block;color:var(--muted);font-size:9px;text-transform:uppercase;letter-spacing:.05em} .category-score strong{font-size:15px}
+.evidence{padding-left:18px;color:#44506a;min-height:64px} .evidence li{margin:3px 0} .signal-row{display:flex;gap:18px;border-top:1px solid var(--line);padding-top:12px;color:var(--muted);font-size:11px} .signal-row strong{color:var(--ink)}
+.empty{padding:30px;background:white;border:1px dashed #ccd2df;border-radius:14px;color:var(--muted)} footer{margin-top:34px;color:var(--muted);font-size:11px}
+@media(max-width:850px){.metrics,.grid,.cards{grid-template-columns:1fr 1fr}} @media(max-width:580px){.metrics,.grid,.cards{grid-template-columns:1fr}.shell{padding:14px}.hero{padding:24px}}
+</style>
+</head>
+<body><main class="shell">
+<section class="hero"><span class="eyebrow">Integrity analytics / portfolio demonstration</span>
+<h1>Session Integrity Review</h1>
+<p>Explainable triage across combat, automation, statistical, and learned behavior signals.</p>
+<div class="notice">This report analyzes simulated gameplay data. Scores indicate sessions for human review; they are not proof of cheating and must not be used as automatic ban decisions.</div>
+</section>
+<section class="metrics">
+<div class="metric"><span>Sessions analyzed</span><strong>198</strong></div>
+<div class="metric"><span>Queued for review</span><strong>46</strong></div>
+<div class="metric"><span>Average risk</span><strong>24.7</strong></div>
+<div class="metric"><span>Critical sessions</span><strong>29</strong></div>
+</section>
+<section class="grid">
+<div class="panel"><h2>Risk distribution</h2><div class="bar-row"><span>Low</span><div class="bar-track"><div class="bar-fill" style="width:100.0%"></div></div><strong>152</strong></div><div class="bar-row"><span>Review</span><div class="bar-track"><div class="bar-fill" style="width:0.7%"></div></div><strong>1</strong></div><div class="bar-row"><span>High</span><div class="bar-track"><div class="bar-fill" style="width:10.5%"></div></div><strong>16</strong></div><div class="bar-row"><span>Critical</span><div class="bar-track"><div class="bar-fill" style="width:19.1%"></div></div><strong>29</strong></div></div>
+<div class="panel"><h2>Cheat category breakdown</h2><div class="bar-row"><span>Autoclicker</span><div class="bar-track"><div class="bar-fill" style="width:45.8%"></div></div><strong>11</strong></div><div class="bar-row"><span>Reach</span><div class="bar-track"><div class="bar-fill" style="width:62.5%"></div></div><strong>15</strong></div><div class="bar-row"><span>Aim Assist</span><div class="bar-track"><div class="bar-fill" style="width:66.7%"></div></div><strong>16</strong></div><div class="bar-row"><span>Bot Behavior</span><div class="bar-track"><div class="bar-fill" style="width:100.0%"></div></div><strong>24</strong></div><div class="bar-row"><span>Macro Farming</span><div class="bar-track"><div class="bar-fill" style="width:66.7%"></div></div><strong>16</strong></div><div class="bar-row"><span>Multi-signal</span><div class="bar-track"><div class="bar-fill" style="width:33.3%"></div></div><strong>8</strong></div></div>
+</section>
+<div class="section-heading"><div><span class="eyebrow">Review queue</span><h2>Top suspicious sessions</h2></div><p>Threshold: 52/100</p></div>
+<section class="cards">
+            <article class="player-card">
+              <div class="player-heading">
+                <div><span class="eyebrow">SkyBlock</span>
+                <h3>player_191</h3>
+                <p>S0191</p></div>
+                <div class="risk-badge critical">
+                  <strong>100</strong><span>critical</span>
+                </div>
+              </div>
+              <div class="category-grid"><div class="category-score"><span>Autoclicker</span><strong>34</strong></div><div class="category-score"><span>Reach</span><strong>69</strong></div><div class="category-score"><span>Aim Assist</span><strong>77</strong></div><div class="category-score"><span>Bot Behavior</span><strong>62</strong></div><div class="category-score"><span>Macro Farming</span><strong>95</strong></div><div class="category-score"><span>Multi-signal</span><strong>90</strong></div></div>
+              <ul class="evidence"><li>Maximum observed reach was 3.63 blocks</li><li>Aim snap rate was 85%</li><li>Perfect tracking ratio was 90%</li><li>Repeated path ratio was 92%</li><li>Action diversity was low at 1.1/min</li><li>Statistical outlier score was 100/100</li><li>Demo model estimated 100% suspicious probability</li></ul>
+              <div class="signal-row">
+                <span>Rules <strong>100</strong></span>
+                <span>Outlier <strong>100</strong></span>
+                <span>Model <strong>100%</strong></span>
+              </div>
+            </article>
+            
+            <article class="player-card">
+              <div class="player-heading">
+                <div><span class="eyebrow">SkyBlock</span>
+                <h3>player_193</h3>
+                <p>S0193</p></div>
+                <div class="risk-badge critical">
+                  <strong>100</strong><span>critical</span>
+                </div>
+              </div>
+              <div class="category-grid"><div class="category-score"><span>Autoclicker</span><strong>40</strong></div><div class="category-score"><span>Reach</span><strong>58</strong></div><div class="category-score"><span>Aim Assist</span><strong>72</strong></div><div class="category-score"><span>Bot Behavior</span><strong>62</strong></div><div class="category-score"><span>Macro Farming</span><strong>81</strong></div><div class="category-score"><span>Multi-signal</span><strong>90</strong></div></div>
+              <ul class="evidence"><li>Maximum observed reach was 3.56 blocks</li><li>Aim snap rate was 79%</li><li>Perfect tracking ratio was 91%</li><li>Repeated path ratio was 94%</li><li>Action diversity was low at 1.5/min</li><li>Statistical outlier score was 100/100</li><li>Demo model estimated 100% suspicious probability</li></ul>
+              <div class="signal-row">
+                <span>Rules <strong>100</strong></span>
+                <span>Outlier <strong>100</strong></span>
+                <span>Model <strong>100%</strong></span>
+              </div>
+            </article>
+            
+            <article class="player-card">
+              <div class="player-heading">
+                <div><span class="eyebrow">SkyWars</span>
+                <h3>player_194</h3>
+                <p>S0194</p></div>
+                <div class="risk-badge critical">
+                  <strong>100</strong><span>critical</span>
+                </div>
+              </div>
+              <div class="category-grid"><div class="category-score"><span>Autoclicker</span><strong>45</strong></div><div class="category-score"><span>Reach</span><strong>96</strong></div><div class="category-score"><span>Aim Assist</span><strong>71</strong></div><div class="category-score"><span>Bot Behavior</span><strong>61</strong></div><div class="category-score"><span>Macro Farming</span><strong>88</strong></div><div class="category-score"><span>Multi-signal</span><strong>100</strong></div></div>
+              <ul class="evidence"><li>Click timing consistency was 90%</li><li>Maximum observed reach was 3.82 blocks</li><li>Aim snap rate was 83%</li><li>Perfect tracking ratio was 86%</li><li>Repeated path ratio was 96%</li><li>Statistical outlier score was 100/100</li><li>Demo model estimated 100% suspicious probability</li></ul>
+              <div class="signal-row">
+                <span>Rules <strong>100</strong></span>
+                <span>Outlier <strong>100</strong></span>
+                <span>Model <strong>100%</strong></span>
+              </div>
+            </article>
+            
+            <article class="player-card">
+              <div class="player-heading">
+                <div><span class="eyebrow">Duels</span>
+                <h3>player_195</h3>
+                <p>S0195</p></div>
+                <div class="risk-badge critical">
+                  <strong>100</strong><span>critical</span>
+                </div>
+              </div>
+              <div class="category-grid"><div class="category-score"><span>Autoclicker</span><strong>45</strong></div><div class="category-score"><span>Reach</span><strong>80</strong></div><div class="category-score"><span>Aim Assist</span><strong>74</strong></div><div class="category-score"><span>Bot Behavior</span><strong>60</strong></div><div class="category-score"><span>Macro Farming</span><strong>89</strong></div><div class="category-score"><span>Multi-signal</span><strong>100</strong></div></div>
+              <ul class="evidence"><li>Click timing consistency was 87%</li><li>Maximum observed reach was 3.71 blocks</li><li>Aim snap rate was 84%</li><li>Perfect tracking ratio was 88%</li><li>Repeated path ratio was 92%</li><li>Statistical outlier score was 100/100</li><li>Demo model estimated 100% suspicious probability</li></ul>
+              <div class="signal-row">
+                <span>Rules <strong>100</strong></span>
+                <span>Outlier <strong>100</strong></span>
+                <span>Model <strong>100%</strong></span>
+              </div>
+            </article>
+            
+            <article class="player-card">
+              <div class="player-heading">
+                <div><span class="eyebrow">Duels</span>
+                <h3>player_197</h3>
+                <p>S0197</p></div>
+                <div class="risk-badge critical">
+                  <strong>100</strong><span>critical</span>
+                </div>
+              </div>
+              <div class="category-grid"><div class="category-score"><span>Autoclicker</span><strong>41</strong></div><div class="category-score"><span>Reach</span><strong>87</strong></div><div class="category-score"><span>Aim Assist</span><strong>67</strong></div><div class="category-score"><span>Bot Behavior</span><strong>65</strong></div><div class="category-score"><span>Macro Farming</span><strong>83</strong></div><div class="category-score"><span>Multi-signal</span><strong>90</strong></div></div>
+              <ul class="evidence"><li>Maximum observed reach was 3.76 blocks</li><li>Aim snap rate was 80%</li><li>Perfect tracking ratio was 86%</li><li>Repeated path ratio was 94%</li><li>Action diversity was low at 0.6/min</li><li>Statistical outlier score was 100/100</li><li>Demo model estimated 100% suspicious probability</li></ul>
+              <div class="signal-row">
+                <span>Rules <strong>100</strong></span>
+                <span>Outlier <strong>100</strong></span>
+                <span>Model <strong>100%</strong></span>
+              </div>
+            </article>
+            
+            <article class="player-card">
+              <div class="player-heading">
+                <div><span class="eyebrow">SkyWars</span>
+                <h3>player_198</h3>
+                <p>S0198</p></div>
+                <div class="risk-badge critical">
+                  <strong>100</strong><span>critical</span>
+                </div>
+              </div>
+              <div class="category-grid"><div class="category-score"><span>Autoclicker</span><strong>19</strong></div><div class="category-score"><span>Reach</span><strong>89</strong></div><div class="category-score"><span>Aim Assist</span><strong>78</strong></div><div class="category-score"><span>Bot Behavior</span><strong>52</strong></div><div class="category-score"><span>Macro Farming</span><strong>86</strong></div><div class="category-score"><span>Multi-signal</span><strong>90</strong></div></div>
+              <ul class="evidence"><li>Maximum observed reach was 3.77 blocks</li><li>Aim snap rate was 88%</li><li>Perfect tracking ratio was 90%</li><li>Repeated path ratio was 84%</li><li>Action diversity was low at 1.1/min</li><li>Statistical outlier score was 100/100</li><li>Demo model estimated 100% suspicious probability</li></ul>
+              <div class="signal-row">
+                <span>Rules <strong>100</strong></span>
+                <span>Outlier <strong>100</strong></span>
+                <span>Model <strong>100%</strong></span>
+              </div>
+            </article>
+            
+            <article class="player-card">
+              <div class="player-heading">
+                <div><span class="eyebrow">SkyBlock</span>
+                <h3>player_192</h3>
+                <p>S0192</p></div>
+                <div class="risk-badge critical">
+                  <strong>100</strong><span>critical</span>
+                </div>
+              </div>
+              <div class="category-grid"><div class="category-score"><span>Autoclicker</span><strong>45</strong></div><div class="category-score"><span>Reach</span><strong>100</strong></div><div class="category-score"><span>Aim Assist</span><strong>65</strong></div><div class="category-score"><span>Bot Behavior</span><strong>54</strong></div><div class="category-score"><span>Macro Farming</span><strong>75</strong></div><div class="category-score"><span>Multi-signal</span><strong>100</strong></div></div>
+              <ul class="evidence"><li>Click timing consistency was 87%</li><li>Maximum observed reach was 4.01 blocks</li><li>Aim snap rate was 71%</li><li>Perfect tracking ratio was 92%</li><li>Repeated path ratio was 87%</li><li>Statistical outlier score was 100/100</li><li>Demo model estimated 100% suspicious probability</li></ul>
+              <div class="signal-row">
+                <span>Rules <strong>100</strong></span>
+                <span>Outlier <strong>100</strong></span>
+                <span>Model <strong>100%</strong></span>
+              </div>
+            </article>
+            
+            <article class="player-card">
+              <div class="player-heading">
+                <div><span class="eyebrow">Duels</span>
+                <h3>player_196</h3>
+                <p>S0196</p></div>
+                <div class="risk-badge critical">
+                  <strong>100</strong><span>critical</span>
+                </div>
+              </div>
+              <div class="category-grid"><div class="category-score"><span>Autoclicker</span><strong>36</strong></div><div class="category-score"><span>Reach</span><strong>56</strong></div><div class="category-score"><span>Aim Assist</span><strong>65</strong></div><div class="category-score"><span>Bot Behavior</span><strong>63</strong></div><div class="category-score"><span>Macro Farming</span><strong>89</strong></div><div class="category-score"><span>Multi-signal</span><strong>90</strong></div></div>
+              <ul class="evidence"><li>Maximum observed reach was 3.54 blocks</li><li>Aim snap rate was 71%</li><li>Perfect tracking ratio was 92%</li><li>Repeated path ratio was 92%</li><li>Action diversity was low at 0.9/min</li><li>Statistical outlier score was 97/100</li><li>Demo model estimated 100% suspicious probability</li></ul>
+              <div class="signal-row">
+                <span>Rules <strong>100</strong></span>
+                <span>Outlier <strong>97</strong></span>
+                <span>Model <strong>100%</strong></span>
+              </div>
+            </article>
+            
+            <article class="player-card">
+              <div class="player-heading">
+                <div><span class="eyebrow">SkyWars</span>
+                <h3>player_189</h3>
+                <p>S0189</p></div>
+                <div class="risk-badge critical">
+                  <strong>99</strong><span>critical</span>
+                </div>
+              </div>
+              <div class="category-grid"><div class="category-score"><span>Autoclicker</span><strong>0</strong></div><div class="category-score"><span>Reach</span><strong>0</strong></div><div class="category-score"><span>Aim Assist</span><strong>0</strong></div><div class="category-score"><span>Bot Behavior</span><strong>57</strong></div><div class="category-score"><span>Macro Farming</span><strong>89</strong></div><div class="category-score"><span>Multi-signal</span><strong>30</strong></div></div>
+              <ul class="evidence"><li>Repeated path ratio was 91%</li><li>Action diversity was low at 1.7/min</li><li>Resource collection reached 17.3/min</li><li>Farming route repetition was 91%</li><li>Session duration was 147 minutes</li><li>Statistical outlier score was 91/100</li><li>Demo model estimated 100% suspicious probability</li></ul>
+              <div class="signal-row">
+                <span>Rules <strong>100</strong></span>
+                <span>Outlier <strong>91</strong></span>
+                <span>Model <strong>100%</strong></span>
+              </div>
+            </article>
+            
+            <article class="player-card">
+              <div class="player-heading">
+                <div><span class="eyebrow">Duels</span>
+                <h3>player_190</h3>
+                <p>S0190</p></div>
+                <div class="risk-badge critical">
+                  <strong>98</strong><span>critical</span>
+                </div>
+              </div>
+              <div class="category-grid"><div class="category-score"><span>Autoclicker</span><strong>0</strong></div><div class="category-score"><span>Reach</span><strong>0</strong></div><div class="category-score"><span>Aim Assist</span><strong>0</strong></div><div class="category-score"><span>Bot Behavior</span><strong>62</strong></div><div class="category-score"><span>Macro Farming</span><strong>91</strong></div><div class="category-score"><span>Multi-signal</span><strong>30</strong></div></div>
+              <ul class="evidence"><li>Repeated path ratio was 95%</li><li>Action diversity was low at 1.4/min</li><li>Resource collection reached 16.2/min</li><li>Farming route repetition was 95%</li><li>Session duration was 167 minutes</li><li>Statistical outlier score was 92/100</li><li>Demo model estimated 98% suspicious probability</li></ul>
+              <div class="signal-row">
+                <span>Rules <strong>100</strong></span>
+                <span>Outlier <strong>92</strong></span>
+                <span>Model <strong>98%</strong></span>
+              </div>
+            </article>
+            
+            <article class="player-card">
+              <div class="player-heading">
+                <div><span class="eyebrow">Bed Wars</span>
+                <h3>player_183</h3>
+                <p>S0183</p></div>
+                <div class="risk-badge critical">
+                  <strong>98</strong><span>critical</span>
+                </div>
+              </div>
+              <div class="category-grid"><div class="category-score"><span>Autoclicker</span><strong>0</strong></div><div class="category-score"><span>Reach</span><strong>0</strong></div><div class="category-score"><span>Aim Assist</span><strong>0</strong></div><div class="category-score"><span>Bot Behavior</span><strong>65</strong></div><div class="category-score"><span>Macro Farming</span><strong>92</strong></div><div class="category-score"><span>Multi-signal</span><strong>30</strong></div></div>
+              <ul class="evidence"><li>Repeated path ratio was 95%</li><li>Action diversity was low at 1.0/min</li><li>Resource collection reached 16.0/min</li><li>Farming route repetition was 95%</li><li>Session duration was 177 minutes</li><li>Statistical outlier score was 93/100</li><li>Demo model estimated 97% suspicious probability</li></ul>
+              <div class="signal-row">
+                <span>Rules <strong>100</strong></span>
+                <span>Outlier <strong>93</strong></span>
+                <span>Model <strong>97%</strong></span>
+              </div>
+            </article>
+            
+            <article class="player-card">
+              <div class="player-heading">
+                <div><span class="eyebrow">SkyWars</span>
+                <h3>player_186</h3>
+                <p>S0186</p></div>
+                <div class="risk-badge critical">
+                  <strong>98</strong><span>critical</span>
+                </div>
+              </div>
+              <div class="category-grid"><div class="category-score"><span>Autoclicker</span><strong>0</strong></div><div class="category-score"><span>Reach</span><strong>0</strong></div><div class="category-score"><span>Aim Assist</span><strong>0</strong></div><div class="category-score"><span>Bot Behavior</span><strong>51</strong></div><div class="category-score"><span>Macro Farming</span><strong>90</strong></div><div class="category-score"><span>Multi-signal</span><strong>30</strong></div></div>
+              <ul class="evidence"><li>Repeated path ratio was 92%</li><li>Action diversity was low at 2.8/min</li><li>Resource collection reached 18.5/min</li><li>Farming route repetition was 92%</li><li>Session duration was 134 minutes</li><li>Statistical outlier score was 91/100</li><li>Demo model estimated 98% suspicious probability</li></ul>
+              <div class="signal-row">
+                <span>Rules <strong>100</strong></span>
+                <span>Outlier <strong>91</strong></span>
+                <span>Model <strong>98%</strong></span>
+              </div>
+            </article>
+            </section>
+<footer>Generated by the Data-Driven Anti-Cheat Portfolio Pipeline. Simulated telemetry, configurable heuristic thresholds, robust outlier analysis, and a lightweight logistic model.</footer>
+</main></body></html>

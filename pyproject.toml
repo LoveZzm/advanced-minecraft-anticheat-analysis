@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=70"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "anticheat-pipeline-demo"
+version = "1.0.0"
+description = "Explainable data-driven anti-cheat portfolio demonstration"
+requires-python = ">=3.11"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [{name = "Portfolio Project"}]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.setuptools.packages.find]
+include = ["anticheat_pipeline*"]
+
+[tool.setuptools.package-data]
+anticheat_pipeline = ["default_detection.toml"]

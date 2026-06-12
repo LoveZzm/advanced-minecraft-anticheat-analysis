@@ -1,0 +1,71 @@
+# Packaged fallback defaults. Use --config to provide environment-specific settings.
+
+[thresholds]
+flag = 52
+high = 70
+critical = 85
+category_active = 45
+multi_signal_bonus = 30
+
+[aggregation]
+rules = 0.60
+outliers = 0.15
+model = 0.25
+
+[model]
+learning_rate = 0.04
+epochs = 650
+
+[category_weights]
+autoclicker = 1.00
+reach = 1.00
+aim_assist = 1.00
+bot_behavior = 0.95
+macro_farming = 0.95
+multi_signal = 0.75
+
+[rules.autoclicker]
+cps_soft = 12
+cps_hard = 19
+cps_weight = 0.55
+consistency_soft = 0.68
+consistency_hard = 0.86
+consistency_weight = 0.45
+
+[rules.reach]
+soft = 3.15
+hard = 3.85
+
+[rules.aim_assist]
+snap_soft = 0.45
+snap_hard = 0.86
+snap_weight = 0.40
+tracking_soft = 0.55
+tracking_hard = 0.92
+tracking_weight = 0.40
+switches_soft = 4.0
+switches_hard = 8.0
+switches_weight = 0.20
+
+[rules.bot_behavior]
+path_efficiency_soft = 0.88
+path_efficiency_hard = 0.98
+path_efficiency_weight = 0.35
+repeated_path_soft = 0.58
+repeated_path_hard = 0.94
+repeated_path_weight = 0.45
+actions_soft = 4.0
+actions_hard = 1.0
+actions_weight = 0.20
+
+[rules.macro_farming]
+resources_soft = 8.0
+resources_hard = 18.0
+resources_weight = 0.35
+repeated_path_soft = 0.58
+repeated_path_hard = 0.94
+repeated_path_weight = 0.30
+duration_soft = 70
+duration_hard = 180
+duration_weight = 0.20
+overnight_weight = 0.15
